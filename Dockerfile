@@ -35,6 +35,7 @@ USER nobody
 WORKDIR /var/www/html
 COPY --chown=nobody src/ /var/www/html/
 
+COPY --chown=nobody mftp/ /var/www/html/mftp
 # Expose the port nginx is reachable on
 EXPOSE 8080
 
