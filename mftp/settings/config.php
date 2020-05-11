@@ -14,7 +14,7 @@
     $configMaxExecutionTimeSeconds = 1800;
     $configSSHAgentAuthEnabled = false;
     $configSSHKeyAuthEnabled = false;
-    $configPageTitle = "Monsta FTP";
+    $configPageTitle = "BBU FTP";
 
     $configMaxLoginFailures = 3;
     $configLoginFailuresResetTimeMinutes = 5;
