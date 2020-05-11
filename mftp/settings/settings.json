@@ -1,7 +1,17 @@
 {
     "language": "en_us",
-    "hideProUpgradeMessages": false,
+    "showDotFiles": false,
+    "resumeSessionInfoDisplaySeconds": 3,
+    "editableFileExtensions": "txt,htm,html,php,asp,aspx,js,css,xhtml,cfm,pl,py,c,cpp,rb,java,xml,json",
+    "disableMasterLogin": true,
     "connectionRestrictions": {
-        "types": ["ftp","sftp"]
+        "types": ["sftp"],
+        "sftp": {
+            "host": "sftp",
+            "port": 22,
+            "remoteUsername": "bbu",
+            "initialDirectory": "/",
+            "authenticationModeName": "Password"
+        }
     }
 }
