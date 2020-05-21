@@ -82,14 +82,14 @@ http://redirect.monstaftp.com/upgrade
 
 .toolbar .logo {
   background: url("../application/frontend/images/monsta-logo-400w.png") no-repeat center center;
-  background-size: 144px 33px;
+  background-size: 265px 57px;
   height: 33px;
-  width: 144px; }
+  width: 175px; }
 
 @media (max-width: 1000px) {
   .toolbar .logo {
     background: url("../application/frontend/images/monsta-logo-400w.png") no-repeat center center;
-    background-size: 144px 33px;
+    background-size: 265px 57px;
     background-position: -26px;
     width: 29px; } }
 

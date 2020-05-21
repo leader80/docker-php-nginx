@@ -1,2 +1,6 @@
 <?php
-phpinfo();
+
+header("Location: /mftp/");
+die();
+
+?>
